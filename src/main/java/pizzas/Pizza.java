@@ -1,6 +1,5 @@
 package pizzas;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 abstract public class Pizza {
@@ -34,6 +33,7 @@ abstract public class Pizza {
     }
 
     public  String toString() {
+        //显示比萨名称和配料的代码
         // code to display pizza name and ingredients
         StringBuffer display = new StringBuffer();
         display.append("---- " + name + "----\n");
